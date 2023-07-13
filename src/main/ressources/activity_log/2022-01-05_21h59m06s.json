@@ -1,0 +1,119 @@
+[
+  {
+    "activeDuration": 7623000,
+    "activeZoneMinutes": {
+      "minutesInHeartRateZones": [
+        {
+          "minuteMultiplier": 0,
+          "minutes": 0,
+          "order": 0,
+          "type": "OUT_OF_ZONE",
+          "zoneName": "Out of Range"
+        },
+        {
+          "minuteMultiplier": 2,
+          "minutes": 9,
+          "order": 2,
+          "type": "CARDIO",
+          "zoneName": "Cardio"
+        },
+        {
+          "minuteMultiplier": 2,
+          "minutes": 0,
+          "order": 3,
+          "type": "PEAK",
+          "zoneName": "Peak"
+        },
+        {
+          "minuteMultiplier": 1,
+          "minutes": 61,
+          "order": 1,
+          "type": "FAT_BURN",
+          "zoneName": "Fat Burn"
+        }
+      ],
+      "totalMinutes": 79
+    },
+    "activityLevel": [
+      {
+        "minutes": 6,
+        "name": "sedentary"
+      },
+      {
+        "minutes": 14,
+        "name": "lightly"
+      },
+      {
+        "minutes": 29,
+        "name": "fairly"
+      },
+      {
+        "minutes": 78,
+        "name": "very"
+      }
+    ],
+    "activityName": "Martial Arts",
+    "activityTypeId": 15430,
+    "averageHeartRate": 119,
+    "calories": 875,
+    "caloriesLink": "https://api.fitbit.com/1/user/-/activities/calories/date/2022-01-05/2022-01-05/1min/time/20:13/22:40.json",
+    "duration": 8807000,
+    "elevationGain": 816.000657,
+    "hasActiveZoneMinutes": true,
+    "heartRateLink": "https://api.fitbit.com/1/user/-/activities/heart/date/2022-01-05/2022-01-05/1sec/time/20:13:41/22:40:28.json",
+    "heartRateZones": [
+      {
+        "caloriesOut": 455.60695999999984,
+        "max": 119,
+        "min": 30,
+        "minutes": 76,
+        "name": "Out of Range"
+      },
+      {
+        "caloriesOut": 490.75900000000007,
+        "max": 145,
+        "min": 119,
+        "minutes": 61,
+        "name": "Fat Burn"
+      },
+      {
+        "caloriesOut": 92.10291,
+        "max": 179,
+        "min": 145,
+        "minutes": 9,
+        "name": "Cardio"
+      },
+      {
+        "caloriesOut": 0,
+        "max": 220,
+        "min": 179,
+        "minutes": 0,
+        "name": "Peak"
+      }
+    ],
+    "lastModified": "2022-01-05T21:59:06.000Z",
+    "logId": 45172903707,
+    "logType": "tracker",
+    "manualValuesSpecified": {
+      "calories": false,
+      "distance": false,
+      "steps": false
+    },
+    "originalDuration": 8807000,
+    "originalStartTime": "2022-01-05T20:13:41.000+01:00",
+    "source": {
+      "id": "173143671",
+      "name": "Versa 3",
+      "trackerFeatures": [
+        "STEPS",
+        "HEARTRATE",
+        "CALORIES"
+      ],
+      "type": "tracker",
+      "url": "https://www.fitbit.com/"
+    },
+    "startTime": "2022-01-05T20:13:41.000+01:00",
+    "steps": 9233,
+    "tcxLink": "https://api.fitbit.com/1/user/-/activities/45172903707.tcx"
+  }
+]
